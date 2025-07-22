@@ -13,7 +13,7 @@ module.exports = {
     CHATBOT: getConfig("CHATBOT") || "on",
     //chatbot on/off
   
-    SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~XBlHmIzK#Rt5ovrbEvmsGcIWC7pQQiH87yD-mf5G8o6XLjcFtSlU",  // Your bot's session ID (keep it secure)
+    SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~aI8mFaZY#u2OI8Y8gd_2TMpvwMd8qq8RAXzt8U0aOXgZnFK6XSr4",  // Your bot's session ID (keep it secure)
     PREFIX: getConfig("PREFIX") || ".",  // Command prefix (e.g., "., / ! * - +")
     BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "🫆ᎷᏒ.ᒍ𝚯ᕼᗩᑎ ᒪ𝚰𝚵ᗷ𝚵ᖇ𝚻✞",  // Bot's display name
     MODE: process.env.MODE || "public",        // Bot mode: public/private/group/inbox
@@ -34,7 +34,7 @@ module.exports = {
     AUTO_REACT: process.env.AUTO_REACT || "false",              // Auto-react to messages?
     CUSTOM_REACT: process.env.CUSTOM_REACT || "false",          // Use custom emoji reactions?
     CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",  // Custom reaction emojis
-    STICKER_NAME: process.env.STICKER_NAME || "MEGALODON-MD",     // Sticker pack name
+    STICKER_NAME: process.env.STICKER_NAME || "🫆ᎷᏒ.ᒍ𝚯ᕼᗩᑎ ᒪ𝚰𝚵ᗷ𝚵ᖇ𝚻✞",     // Sticker pack name
 
     
     // ===== MEDIA & AUTOMATION =====
