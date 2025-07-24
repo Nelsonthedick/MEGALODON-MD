@@ -15,7 +15,7 @@ module.exports = {
   
     SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~WU0nSQyQ#cQ0p05AdMcxa7LrwNDZrVphmX5WwVFi_nVbUOOXcGr0",  // Your bot's session ID (keep it secure)
     PREFIX: getConfig("PREFIX") || ".",  // Command prefix (e.g., "., / ! * - +")
-    BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "MEGALODON-MD",  // Bot's display name
+    BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "🫆ᎷᏒ.ᒍ𝚯ᕼᗩᑎ ᒪ𝚰𝚵ᗷ𝚵ᖇ𝚻✞",  // Bot's display name
     MODE: process.env.MODE || "public",        // Bot mode: public/private/group/inbox
     // ===== OWNER & DEVELOPER SETTINGS =====
     OWNER_NUMBER: process.env.OWNER_NUMBER || "50948702213",  // Owner's WhatsApp number
@@ -39,8 +39,8 @@ module.exports = {
     
     // ===== MEDIA & AUTOMATION =====
     AUTO_RECORDING: process.env.AUTO_RECORDING || "false",      // Auto-record voice notes?
-    AUTO_TYPING: process.env.AUTO_TYPING || "false",   // Show typing indicator?
-    MENU_IMAGE_URL: getConfig("MENU_IMAGE_URL") || "https://files.catbox.moe/roubzi.jpg",  // Bot's "alive" image
+    AUTO_TYPING: process.env.AUTO_TYPING || "true",   // Show typing indicator?
+    MENU_IMAGE_URL: getConfig("MENU_IMAGE_URL") || "https://files.catbox.moe/gbsp6e.jpg",  // Bot's "alive" image
 
     // ===== SECURITY & ANTI-FEATURES =====
     ANTI_BOT: process.env.ANTI_BOT || "true",
