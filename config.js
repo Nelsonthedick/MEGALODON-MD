@@ -12,7 +12,7 @@ module.exports = {
     // ===== BOT CORE SETTINGS =====
     CHATBOT: getConfig("CHATBOT") || "on",
     //chatbot on/off
-    SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~yR1hSRrB#gEx0CW2-LWxWgzPFmubIIdCTjt3h-9Tr6k_8MyeFQdA",  // Your bot's session ID (keep it secure)
+    SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~CAVDjaaT#PddoVKD9GXS_IZbfSNfF8XP2wWfgQaHnkDGPckwzLy0",  // Your bot's session ID (keep it secure)
     PREFIX: getConfig("PREFIX") || ".",  // Command prefix (e.g., "., / ! * - +")
     BOT_NAME: process.env.BOT_NAME || getConfig("BOT_ NAME") || "🫆ᎷᏒ.ᒍ𝚯ᕼᗩᑎ ᒪ𝚰𝚵ᗷ𝚵ᖇ𝚻✞",  // Bot's display name
     MODE: process.env.MODE || "public",        // Bot mode: public/private/group/inbox
@@ -32,8 +32,8 @@ module.exports = {
     // ===== REACTION & STICKER SETTINGS =====
     AUTO_REACT: process.env.AUTO_REACT || "false",              // Auto-react to messages?
     CUSTOM_REACT: process.env.CUSTOM_REACT || "false",          // Use custom emoji reactions?
-    CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",  // Custom reaction emojis
-    STICKER_NAME: process.env.STICKER_NAME || "MEGALODON-MD",     // Sticker pack name
+    CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "🌹,🤕,😔,🥺,💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",  // Custom reaction emojis
+    STICKER_NAME: process.env.STICKER_NAME || "🫆ᎷᏒ.ᒍ𝚯ᕼᗩᑎ ᒪ𝚰𝚵ᗷ𝚵ᖇ𝚻✞",     // Sticker pack name
 
     
     // ===== MEDIA & AUTOMATION =====
@@ -52,13 +52,13 @@ module.exports = {
 
     ANTI_LINK_KICK: process.env.ANTILINK_KICK || "false",
 // make anti link true,false for groups 
-    ANTIVIEW_ONCE: process.env.ANTIVIEW_ONCE || "false",
+    ANTIVIEW_ONCE: process.env.ANTIVIEW_ONCE || "true",
     
     ANTILINK_WARN: process.env.ANTILINK_WARN || "false",
     
      ANTILINK: process.env.ANTILINK || "false",
     
-    ANTI_VV: process.env.ANTI_VV || "false",  
+    ANTI_VV: process.env.ANTI_VV || "true",  
     // Block view-once messages?
     DELETE_LINKS: process.env.DELETE_LINKS || "false",  
     // Auto-delete links?
@@ -69,7 +69,7 @@ module.exports = {
    
     PUBLIC_MODE: process.env.PUBLIC_MODE || "true",     
     // Allow public commands?
-    ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
+    ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
     // Show bot as always online?
     AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
     // React to status updates?
