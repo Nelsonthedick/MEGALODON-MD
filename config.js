@@ -1,4 +1,4 @@
-const { getConfig } = require("./lib/configdb");
+ const { getConfig } = require("./lib/configdb");
 const fs = require('fs');
 const path = require('path');
 
