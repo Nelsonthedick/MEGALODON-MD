@@ -12,12 +12,13 @@ module.exports = {
     // ===== BOT CORE SETTINGS =====
     CHATBOT: getConfig("CHATBOT") || "on",
     //chatbot on/off
-    SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~K8BnnLQS#h219WHjVAxoENSl8QRarw_GlTjz7rkyAmGDOMrGPG_4",  // Your bot's session ID (keep it secure)
+  
+    SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~exgUnS6C#ztYI2Yzx4GqBGEv5LWAxfVKUX65f3vSU8AU7Svp8jDs",  // Your bot's session ID (keep it secure)
     PREFIX: getConfig("PREFIX") || ".",  // Command prefix (e.g., "., / ! * - +")
-    BOT_NAME: process.env.BOT_NAME || getConfig("BOT_ NAME") || "🫆ᎷᏒ.ᒍ𝚯ᕼᗩᑎ ᒪ𝚰𝚵ᗷ𝚵ᖇ𝚻✞",  // Bot's display name
+    BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "MEGALODON-MD",  // Bot's display name
     MODE: process.env.MODE || "public",        // Bot mode: public/private/group/inbox
     // ===== OWNER & DEVELOPER SETTINGS =====
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "50948702213",  // Owner's WhatsApp number
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "50943160033",  // Owner's WhatsApp number
     
     OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "🫆ᎷᏒ.ᒍ𝚯ᕼᗩᑎ ᒪ𝚰𝚵ᗷ𝚵ᖇ𝚻✞",           // Owner's name
     
@@ -32,8 +33,8 @@ module.exports = {
     // ===== REACTION & STICKER SETTINGS =====
     AUTO_REACT: process.env.AUTO_REACT || "false",              // Auto-react to messages?
     CUSTOM_REACT: process.env.CUSTOM_REACT || "false",          // Use custom emoji reactions?
-    CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "🌹,🤕,😔,🥺,💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",  // Custom reaction emojis
-    STICKER_NAME: process.env.STICKER_NAME || "🫆ᎷᏒ.ᒍ𝚯ᕼᗩᑎ ᒪ𝚰𝚵ᗷ𝚵ᖇ𝚻✞",     // Sticker pack name
+    CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",  // Custom reaction emojis
+    STICKER_NAME: process.env.STICKER_NAME || "MEGALODON-MD",     // Sticker pack name
 
     
     // ===== MEDIA & AUTOMATION =====
@@ -52,13 +53,13 @@ module.exports = {
 
     ANTI_LINK_KICK: process.env.ANTILINK_KICK || "false",
 // make anti link true,false for groups 
-    ANTIVIEW_ONCE: process.env.ANTIVIEW_ONCE || "true",
+    ANTIVIEW_ONCE: process.env.ANTIVIEW_ONCE || "false",
     
     ANTILINK_WARN: process.env.ANTILINK_WARN || "false",
     
      ANTILINK: process.env.ANTILINK || "false",
     
-    ANTI_VV: process.env.ANTI_VV || "true",  
+    ANTI_VV: process.env.ANTI_VV || "false",  
     // Block view-once messages?
     DELETE_LINKS: process.env.DELETE_LINKS || "false",  
     // Auto-delete links?
@@ -69,7 +70,7 @@ module.exports = {
    
     PUBLIC_MODE: process.env.PUBLIC_MODE || "true",     
     // Allow public commands?
-    ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
+    ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
     // Show bot as always online?
     AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
     // React to status updates?
@@ -80,5 +81,4 @@ module.exports = {
     WELCOME: process.env.WELCOME || "false",
     
     AMDIN_EVENTS: process.env.ADMIN_EVENTS || "true",
- 🫆ᎷᏒ.ᒍ𝚯ᕼᗩᑎ ᒪ𝚰𝚵ᗷ𝚵ᖇ𝚻✞
 };
