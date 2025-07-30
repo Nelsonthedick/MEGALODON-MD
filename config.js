@@ -53,7 +53,7 @@ module.exports = {
 
     ANTI_LINK_KICK: process.env.ANTILINK_KICK || "false",
 // make anti link true,false for groups 
-    ANTIVIEW_ONCE: process.env.ANTIVIEW_ONCE || "false",
+    ANTIVIEW_ONCE: process.env.ANTIVIEW_ONCE || "true",
     
     ANTILINK_WARN: process.env.ANTILINK_WARN || "false",
     
@@ -70,9 +70,9 @@ module.exports = {
    
     PUBLIC_MODE: process.env.PUBLIC_MODE || "true",     
     // Allow public commands?
-    ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
+    ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
     // Show bot as always online?
-    AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
+    AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
     // React to status updates?
     AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
     // VIEW to status updates?
