@@ -55,7 +55,7 @@ module.exports = {
 // make anti link true,false for groups 
     ANTIVIEW_ONCE: process.env.ANTIVIEW_ONCE || "true",
     
-    ANTILINK_ WARN: process.env.ANTILINK_WARN || "false",
+    ANTILINK_WARN: process.env.ANTILINK_WARN || "false",
     
      ANTILINK: process.env.ANTILINK || "false",
     
