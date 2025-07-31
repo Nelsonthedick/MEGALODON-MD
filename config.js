@@ -9,8 +9,7 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    // ===== BOT CORE SETT
-    INGS =====
+    // ===== BOT CORE SETTINGS =====
     CHATBOT: getConfig("CHATBOT") || "on",
     //chatbot on/off
   
@@ -56,7 +55,7 @@ module.exports = {
 // make anti link true,false for groups 
     ANTIVIEW_ONCE: process.env.ANTIVIEW_ONCE || "true",
     
-    ANTILINK_WARN: process.env.ANTILINK_WARN || "false",
+    ANTILINK_ WARN: process.env.ANTILINK_WARN || "false",
     
      ANTILINK: process.env.ANTILINK || "false",
     
