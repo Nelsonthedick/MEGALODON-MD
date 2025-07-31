@@ -9,7 +9,8 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    // ===== BOT CORE SETTINGS =====
+    // ===== BOT CORE SETT
+    INGS =====
     CHATBOT: getConfig("CHATBOT") || "on",
     //chatbot on/off
   
